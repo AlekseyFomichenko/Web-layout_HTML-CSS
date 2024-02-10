@@ -13,6 +13,11 @@
     src: url(./font/Gilroy-Semibold.woff2);
 }
 
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(./font/Gilroy-Regular.woff2);
+}
+
 .rectangle1 {
     width: 381px;
     height: 291px;
@@ -28,11 +33,75 @@
     height: 291px;
 }
 
-.title_block1{
+.title_block1 {
     color: #000;
-font-family: Gilroy-Bold;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraff_block1 {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.buttons_block1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+}
+
+.title_block2 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraff_block2 {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.title_rectangle5,
+.title_rectangle6,
+.title_rectangle7 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraff_rectangle5,
+.paragraff_rectangle6,
+.paragraff_rectangle7 {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
 }
