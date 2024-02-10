@@ -18,20 +18,30 @@
     src: url(./font/Gilroy-Regular.woff2);
 }
 
-.rectangle1 {
-    width: 381px;
-    height: 291px;
+* {
+    text-decoration: none;
 }
 
-.rectangle2 {
-    width: 381px;
-    height: 291px;
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 476px;
+    gap: 30px;
 }
 
+.rectangle1,
+.rectangle2,
 .rectangle3 {
     width: 381px;
     height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px;
 }
+
 
 .title_block1 {
     color: #000;
@@ -62,6 +72,10 @@
     /* 16.5px */
 }
 
+.block2 {
+    background: #FAFAFA;
+}
+
 .title_block2 {
     color: #000;
     font-family: Gilroy-Bold;
@@ -80,6 +94,13 @@
     font-weight: 400;
     line-height: 150%;
     /* 24px */
+}
+
+.rectangle5,
+.rectangle6,
+.rectangle7 {
+    width: 370px;
+    height: 549px;
 }
 
 .title_rectangle5,
@@ -104,4 +125,20 @@
     font-weight: 400;
     line-height: 150%;
     /* 22.5px */
+}
+
+.buttons_block2 {
+    height: 50px;
+    border: none;
+    padding: 15px 35px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    background: none;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
